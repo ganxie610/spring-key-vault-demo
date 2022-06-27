@@ -1,0 +1,20 @@
+
+spring:
+  cloud:
+    azure:
+      storage:
+        blob:
+          account-name: wjiangstorageaccount
+          account-key: ${wjiangstorageaccount-connection-string}
+      keyvault:
+        secret:
+          property-sources[0]:
+            enabled: true
+            endpoint: https://spring-azure-demo.vault.azure.net/
+            credential:
+              client-id: 051b4bbb-2b9b-49dc-ade3-0ae700dc20bb
+              client-secret: 2628Q~L6a64sY8Ah32-ZbfxCXHBNaGOD1mhaKdae
+            profile:
+              tenant-id: 042fea23-33e9-4902-b719-b6dce766c118
+server:
+  port: 8081

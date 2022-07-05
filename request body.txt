@@ -1,0 +1,13 @@
+[{
+  "id": "2b0dd537-4795-43d0-a9ce-c64368268321",
+  "topic": "/subscriptions/d6caaba2-eefb-46f0-a514-81916ff9ead4/resourcegroups/snowpipe/providers/Microsoft.Storage/storageAccounts/snowpipesa",
+  "subject": "",
+  "data": {
+    "validationCode": "EBA145D2-4B14-4DE1-8EA8-DC08F29BFC1E",
+    "validationUrl": "https://rp-eastus2.eventgrid.azure.net:553/eventsubscriptions/webhook2/validate?id=EBA145D2-4B14-4DE1-8EA8-DC08F29BFC1E&t=2022-07-05T02:25:14.6703281Z&apiVersion=2021-10-15-preview&token=2qVCtwVmk3vTmMyVP80dyT6m1vGQEiEuJ66pOdIB1cw%3d"
+  },
+  "eventType": "Microsoft.EventGrid.SubscriptionValidationEvent",
+  "eventTime": "2022-07-05T02:25:14.6703281Z",
+  "metadataVersion": "1",
+  "dataVersion": "2"
+}]
